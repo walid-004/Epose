@@ -1,0 +1,99 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.header .logo img {
+  height: 70px;
+  color: black;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.nav ul li {
+  padding: 5px;
+  font-size: 18px;
+  position: relative;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 2s;
+}
+
+.nav ul li a:hover{
+  color: ghostwhite;
+}
+.dropdown__menu{
+  display: none;
+}
+
+.nav ul li:hover .dropdown__menu{
+  display: block ;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: white;
+}
+.dropdown__menu ul{
+  display: block;
+}
+.dropdown__menu ul li{
+  padding: 10px;
+}
+#edu{
+  width: 200px;
+}
+#about{
+  width: 400px;
+}
+#practical{
+  width:300px ;
+}
+#parents{
+  width: 300px;
+}
+.sec1{
+  width: 100%;
+  height: 400px;
+  background-color: #e3f4fe;
+  /* background-color: red; */
+
+}
+.sec1 h1{
+  position: relative;
+  top: 200px;
+  text-align: center;
+  font-size: 3em;
+  color: #262455;
+}
+.sec2{
+  /* width: 100%; */
+  /* text-align: justify; */
+  height: 360px;
+  background-color: red;
+}
+.sec2 p{
+  position: relative;
+  margin-left: 400px;
+  top: 50px;
+  line-height: 1.5em;
+  word-spacing: 0.1em;
+}
+.sec3{
+  height: 250px;
+}
